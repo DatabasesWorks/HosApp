@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QWidget" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>448</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>448</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <italic>false</italic>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Help!</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>501</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(72, 255, 16)</string>
+   </property>
+   <property name="text">
+    <string>Hello new user!
+Welcome to our Hospital application.
+
+Here is a quick guideline for using our system.
+
+
+If you are a Nurse - There are two things you can do:
+
+1.Add patients into the system.
+2.Go to back to the main menu.
+
+If you are a Doctor - You have five options:
+
+1.Treat a patient in triaged order.
+2.Print out a patient's information as a report.
+3.Print out a report of treated patients.
+4.Know the next patient to be treated.
+5.Go to back to the main menu.
+
+If you are a Hospital staff - You have four options to look at:
+
+1.Print out a report of all the patients in triage.
+2.Treat all patients.
+3.Print out of all patients by doctor.Or, you can Go back to the main menu.
+
+If you are an Administration staff - You have three options to go for:
+
+1.Bulk add patients into the system (from a file).
+2.All operations of the system to be logged to a file that can be specified.
+3.Go back to the main menu.
+
+Finally, there's also a Quit button on the right corner to close the application.
+So what would you like to do?
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GoBackButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>522</y>
+     <width>75</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Extra Bold</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Go back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
